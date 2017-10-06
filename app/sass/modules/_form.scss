@@ -1,0 +1,46 @@
+.form {
+    &-text {
+        width: 100%;
+    }
+    &-select,
+    &-text {
+        margin: 5px 0;
+        padding: 15px 5px;
+        &::placeholder {
+            color: $gray_darker;
+        }
+    }
+    &-select {
+        width: 100%;
+        appearance: none;
+        margin-bottom: 15px;
+    }
+    &-fieldset {
+        margin-top: 10px;
+        input {
+            appearance: none;
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+            background-color: transparent;
+            margin-left: 5px;
+            margin-right: 2px;
+            position: relative;
+            &:checked {
+                background-color: $gray_darker;
+            }
+            &:after {
+                content: '';
+                width: 14px;
+                height: 14px;
+                border-radius: 50%;
+                border: 1px solid $gray_darker;
+                position: absolute;
+                top: -2px;
+                left: -2px;
+                display: block;
+            }
+        }
+    }
+    text-align: left;
+}

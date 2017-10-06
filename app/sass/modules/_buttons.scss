@@ -1,0 +1,39 @@
+.btn {
+    min-width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: 15px 0;
+    &-go-video {
+        border: 5px solid $gray_darker;
+        padding: 15px;
+        font-size: 18px;
+        font-family: $ffbold;
+        color: $gray_darker;
+    }
+    &-submit {
+        background-color: $brand-primary;
+        border: none;
+        color: #fff;
+        font-family: $ffbold;
+        text-transform: uppercase;
+        font-size: 25px;
+        padding: 5px;
+    }
+    &-external {
+        border: 2px solid $gray_darker;
+        padding: 5px;
+        min-width: 90%;
+        font-family: $ffbold;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    &-tel {
+        width: 90px;
+        font-size: 28px;
+        font-family: $ffbold;
+    }
+}
+
+.arrow {
+    color: $gray-darker;
+}

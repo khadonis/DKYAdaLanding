@@ -1,0 +1,16 @@
+.is-loaded .title{
+    font-size: 30px;
+    font-family: "HelveticaNeueBold","HelveticaNeue", Helvetica, Arial, sans-serif;
+}
+.is-loaded h2  {
+    font-family: "HelveticaNeueBold","HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    span{
+        display: block;
+        line-height: 1;
+    }
+    small{
+        font-size: 22px;
+        font-family: $ffnormal;
+    }
+}
