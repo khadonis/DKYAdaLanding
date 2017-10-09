@@ -43,5 +43,7 @@ li {
     @media (min-width: $screen-lg-min) {
         //   margin: 30px 15px 15px;
         width: 100px;
+        left: auto;
+        right: 30px;
     }
 }
