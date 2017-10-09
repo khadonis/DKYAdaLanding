@@ -1,5 +1,16 @@
 $(document).ready(function () {
     document.body.className += ' is-loaded';
+
+    //slider 
+    $('.slider').slick({
+        fade: true,
+        speed: 2000,
+        cssEase: 'ease-out',
+        touchThreshold: 100,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000
+    });
 });
 
 function validFunc(submitId, nameId, surnameId, telId, mailId, selectId, messageId, accId, decId) {

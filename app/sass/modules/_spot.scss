@@ -1,9 +1,8 @@
 .spot {
-    @media (min-width: $screen-xs-min) {
-        background-image: url('../images/DKYAda-header-bg.jpg');
+    @media (min-width: $screen-xs) {
+        //  background-image: url('../images/DKYAda-header-bg.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 15px;
+        background-size: cover; //padding-top: 15px;
     }
     @media (min-width:$screen-sm-min) {
         background-position: bottom;
@@ -11,5 +10,28 @@
     @media (min-width:$screen-lg-min) {
         min-height: 100vh;
         position: relative;
+    }
+    min-height: 62.25vw;
+    padding: 0;
+    overflow: hidden;
+    .slider {
+        overflow: hidden;
+    }
+    .item {
+        img {
+            height: auto;
+            width: 100%;
+            position: relative;
+            transition-property: transform;
+            transform: scale(1.1, 1.1);
+            transform-origin: 50% 50%;
+            @media (min-width: $screen-lg-min) {
+                height: 100vh;
+                width: auto;
+            }
+        }
+        &.slick-active img {
+            animation: myMove 3s 1 ease-out;
+        }
     }
 }

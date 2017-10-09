@@ -9,18 +9,18 @@
     }
 }
 
-.is-loaded h2 {
-    font-family: "HelveticaNeueBold", "HelveticaNeue", Helvetica, Arial, sans-serif;
+.is-loaded h3 {
+    strong {
+        font-family: "HelveticaNeueBold", "HelveticaNeue", Helvetica, Arial, sans-serif;
+    }
+    font-family: "HelveticaNeue",
+    Helvetica,
+    Arial,
+    sans-serif;
     font-size: 24px;
+    line-height: 1;
+    font-weight: 300;
     @media (min-width: $screen-lg-min) {
-        margin: 10px auto;
-    }
-    span {
-        display: block;
-        line-height: 1;
-    }
-    small {
-        font-size: 22px;
-        font-family: $ffnormal;
+        margin: 40px auto 20px;
     }
 }

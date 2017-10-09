@@ -1,5 +1,6 @@
 //vendor
 @import "vendor/sweetalert2-min";
+@import "vendor/slick";
 //config
 @import "config/variables";
 @import "config/mixins";
@@ -8,6 +9,7 @@
 @import "config/print";
 @import "config/scaffolding";
 @import "config/fonts";
+@import "config/keyframes";
 //base
 @import "base";
 //layouts
