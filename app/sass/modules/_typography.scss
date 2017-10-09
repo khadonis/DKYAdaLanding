@@ -1,15 +1,25 @@
-.is-loaded .title{
+.is-loaded .title {
     font-size: 30px;
-    font-family: "HelveticaNeueBold","HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueBold", "HelveticaNeue", Helvetica, Arial, sans-serif;
+    @media (min-width: $screen-xs-min) {
+        color: #ffffff;
+    }
+    @media (min-width: $screen-lg-min) {
+        font-size: 80px;
+    }
 }
-.is-loaded h2  {
-    font-family: "HelveticaNeueBold","HelveticaNeue", Helvetica, Arial, sans-serif;
+
+.is-loaded h2 {
+    font-family: "HelveticaNeueBold", "HelveticaNeue", Helvetica, Arial, sans-serif;
     font-size: 24px;
-    span{
+    @media (min-width: $screen-lg-min) {
+        margin: 10px auto;
+    }
+    span {
         display: block;
         line-height: 1;
     }
-    small{
+    small {
         font-size: 22px;
         font-family: $ffnormal;
     }

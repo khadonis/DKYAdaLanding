@@ -20,4 +20,10 @@ a,a:hover,a:focus {
 .logo {
     text-align: center;
     margin: 60px 15px 15px;
+    @media (min-width: $screen-xs-min) {
+        margin-bottom: 60px;
+    }        
+    @media (min-width: $screen-lg-min) {
+        margin: 30px 15px 15px;
+    }        
 }

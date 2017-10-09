@@ -1,5 +1,5 @@
 //vendor
-//...
+@import "vendor/sweetalert2-min";
 //config
 @import "config/variables";
 @import "config/mixins";
@@ -16,6 +16,7 @@
 @import "modules/typography";
 @import "modules/baloons";
 @import "modules/form";
+@import "modules/spot";
 @import "modules/buttons";//...
 //utilities
 @import "utilities";
